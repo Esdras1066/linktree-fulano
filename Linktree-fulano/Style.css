@@ -1,0 +1,76 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,77,204,1) 35%, rgba(0,212,255,1) 100%);
+    /*background feito no CSS Gradient*/
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 100px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: "Architects Daughter", cursive;
+    font-weight: 100px;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+        font-size: 16px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.links-list li {
+    list-style:none;
+    margin: 10px 20px;
+}
+
+.links-list a {
+    display: block;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px; 
+    text-align:justify;
+    text-decoration: none;
+    color:rgb(22, 49, 198);
+    font-weight: bold;
+}
+
+.links-list li a span {
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
+
+
